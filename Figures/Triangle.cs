@@ -9,7 +9,7 @@ namespace Figures
     public class Triangle
     {
         /// <summary>
-        /// Calculate square of triangle by three sides
+        /// Calculate square of right-angled triangle by three sides
         /// </summary>
         /// <param name="a">First side</param>
         /// <param name="b">Second side</param>
@@ -21,9 +21,14 @@ namespace Figures
             if ((a + b <= c) || (a + c <= b) || (c + b <= a) ||
                 (a <= 0) || (b <= 0) || (c <= 0))
                 return 0;
-            double pd2 = (a + b + c)/2;
-            double s = Math.Sqrt((pd2*(pd2 - a)*(pd2 - b)*(pd2 - c)));
-            return s;
+            //Choose catheti
+            if (Math.Abs(a*a + c*c - b*b) < Double.Epsilon)
+                return a*c/2;
+            if (Math.Abs(c*c + b*b - a*a) < Double.Epsilon)
+                return c*b/2;
+            if (Math.Abs(a*a + b*b - c*c) < Double.Epsilon)
+                return a*b/2;
+            return 0;
         }
     }
 }
