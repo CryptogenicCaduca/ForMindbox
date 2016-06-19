@@ -1,0 +1,9 @@
+c:\Users\Данил\documents\visual studio 2015\Projects\Figures\UnitTestFigures\bin\Debug\UnitTestFigures.dll
+c:\Users\Данил\documents\visual studio 2015\Projects\Figures\UnitTestFigures\bin\Debug\UnitTestFigures.pdb
+c:\Users\Данил\documents\visual studio 2015\Projects\Figures\UnitTestFigures\bin\Debug\Figures.dll
+c:\Users\Данил\documents\visual studio 2015\Projects\Figures\UnitTestFigures\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\Users\Данил\documents\visual studio 2015\Projects\Figures\UnitTestFigures\bin\Debug\Figures.pdb
+c:\Users\Данил\documents\visual studio 2015\Projects\Figures\UnitTestFigures\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\Users\Данил\documents\visual studio 2015\Projects\Figures\UnitTestFigures\obj\Debug\UnitTestFigures.csprojResolveAssemblyReference.cache
+c:\Users\Данил\documents\visual studio 2015\Projects\Figures\UnitTestFigures\obj\Debug\UnitTestFigures.dll
+c:\Users\Данил\documents\visual studio 2015\Projects\Figures\UnitTestFigures\obj\Debug\UnitTestFigures.pdb
