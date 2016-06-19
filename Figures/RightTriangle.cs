@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Figures
 {
-    public class Triangle
+    public class RightTriangle
     {
         /// <summary>
         /// Calculate square of right-angled triangle by three sides
