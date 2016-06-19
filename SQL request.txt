@@ -1,0 +1,7 @@
+В БД есть таблица с регистрацией клиентов вида CustomerId, RegistrationDateTime, Name и таблица с покупками клиентов вида CustomerId, PurchaseDatetime, ProductName. Напишите SQL запрос, который выберет имена клиентов, которые когда-либо покупали молоко, но не покупали сметану за последний месяц.
+
+SELECT DISTINCT Name FROM Customers
+INNER JOIN Purchases
+ON Customers.CustomerId=Purchases.CustomerId
+WHERE ProductName='Молоко' OR 
+(ProductName='Сметана' AND DATEDIFF(MONTH,PurchaseDatetime,GETDATE()) >1)
