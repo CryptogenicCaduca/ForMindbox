@@ -9,12 +9,12 @@ namespace Figures
     public class RightTriangle
     {
         /// <summary>
-        /// Calculate square of right-angled triangle by three sides
+        /// Calculate square of right-angled triangle by three sides. Max tested square is 10973017315470
         /// </summary>
         /// <param name="a">First side</param>
         /// <param name="b">Second side</param>
         /// <param name="c">Third side</param>
-        /// <returns>if values are wrong then returns 0 else returns square of triangle</returns>
+        /// <returns>If values are wrong then returns 0 else returns square of right triangle</returns>
         public double Square(double a, double b, double c)
         {
             //Check input
